@@ -8,6 +8,7 @@ import '../style/main.scss';
 import { PortfolioProvider } from '../context/context';
 import { contactData, footerData } from '../mock/data';
 import { Container } from 'react-bootstrap';
+import Title from '../components/Title/Title';
 
 export default () => {
   const { title, lang, description } = headData;
@@ -43,14 +44,37 @@ export default () => {
 
 function Project(){
     return(
-        <section id="hero">
+        <section id="objectives" className="jumbotron">
             <Container>
+                <div className="objectives-wrapper">
+                    <h1 className="objectives-title">OBJECTIVES 1</h1>
+                    <row>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--hero"
+                            href={'./index'}
+                        >
+                            Home
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--objectives"
+                            href={'#!'}
+                        >
+                            Objectives
+                        </a>
 
+                    </row>
+                    
                 
+            
 
 
 
 
+                </div>
             </Container>
         </section>
     )
