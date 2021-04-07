@@ -28,58 +28,29 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Objective 1',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title1: 'Objective 1',
+    title2: 'Objective 2',
+    title3: 'Objective 3',
+    info1: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
+    info2: 'Demonstrate software development skills using more than one programming language and development environment.',
+    info3: 'Design and implement software solutions across multiple platforms.',
+    url1: '',
+    url2: '',
+    url3: '',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Objective 2',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title1: 'Objective 4',
+    title2: 'Objective 5',
+    title3: 'Objective 6',
+    info1: 'Design and implement solutions for mobile devices or embedded systems.',
+    info2: 'Document the planning and development of software applications using industry standard tools, techniques, and processes.',
+    info3: 'Within software solutions describe, implement and analyze data structure techniques such as lists, trees, hash tables, graphs, along with sorting and searching algorithms.',
+    url1: '',
+    url2: '',
+    url3: '',
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Objective 3',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Objective 4',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Objective 5',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Objective 6',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  
 ];
 
 // CONTACT DATA
