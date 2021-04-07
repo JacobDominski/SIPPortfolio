@@ -34,7 +34,7 @@ export const projectsData = [
     info1: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
     info2: 'Demonstrate software development skills using more than one programming language and development environment.',
     info3: 'Design and implement software solutions across multiple platforms.',
-    url1: '',
+    url1: './objectiveone',
     url2: '',
     url3: '',
   },
