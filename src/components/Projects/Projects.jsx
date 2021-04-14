@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import { Link } from "gatsby";
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -50,15 +51,11 @@ const Projects = () => {
                         </p>
                         
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      
+                      <Link
+                        to={url1 || '#!'}
                         className="cta-btn cta-btn--hero"
-                        href={url1 || '#!'}
-                      >
-                        See Projects
-                      </a>
-
+                      >See Projects</Link>
                       
                     </div>
                   </Fade>
@@ -80,14 +77,10 @@ const Projects = () => {
                         </p>
                         
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Link
+                        to={url2 || '#!'}
                         className="cta-btn cta-btn--hero"
-                        href={url2 || '#!'}
-                      >
-                        See Projects
-                      </a>
+                      >See Projects</Link>
 
                       
                     </div>
@@ -110,14 +103,10 @@ const Projects = () => {
                         </p>
                         
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Link
+                        to={url3 || '#!'}
                         className="cta-btn cta-btn--hero"
-                        href={url3 || '#!'}
-                      >
-                        See Projects
-                      </a>
+                      >See Projects</Link>
 
                       
                     </div>

@@ -2,20 +2,20 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
-import { headData } from '../mock/data';
+import Objectives from '../components/Objectives/Objectives'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
-import { PortfolioProvider } from '../context/context';
-import { contactData, footerData } from '../mock/data';
-import { Container } from 'react-bootstrap';
-import Title from '../components/Title/Title';
+import  { PortfolioProvider } from '../context/context';
+import { contactData, footerData, headData, objectiveOneData } from '../mock/data';
 
 export default () => {
   const { title, lang, description } = headData;
+  const [objectives, setObjectives] = useState({});
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
+    setObjectives({ ...objectiveOneData});
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
@@ -28,11 +28,8 @@ export default () => {
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
       </Helmet>
 
-      <PortfolioProvider value={{ contact, footer }}>
-        
-        <Project/>
-
-
+      <PortfolioProvider value={{ objectives, contact, footer }}>
+        <Objectives />
         <Contact />
         <Footer />
       </PortfolioProvider>
@@ -41,41 +38,3 @@ export default () => {
     </>
   );
 };
-
-function Project(){
-    return(
-        <section id="objectives" className="jumbotron">
-            <Container>
-                <div className="objectives-wrapper">
-                    <h1 className="objectives-title">OBJECTIVES 1</h1>
-                    <row>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="cta-btn cta-btn--hero"
-                            href={'./index'}
-                        >
-                            Home
-                        </a>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="cta-btn cta-btn--objectives"
-                            href={'#!'}
-                        >
-                            Objectives
-                        </a>
-
-                    </row>
-                    
-                
-            
-
-
-
-
-                </div>
-            </Container>
-        </section>
-    )
-}
