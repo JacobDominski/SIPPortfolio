@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am currently a student at the University of Advancing Technology. At UAT, I am working towards a Computer Science degree with a focus on software development. My time at UAT has helped me increase my knowledge as a programmer and gave me the opportunity to explore other areas of Computer Science. ',
+  paragraphTwo: "When I'm not in class, I enjoy creating projects on my own and seeing what I build come to life. One of my favorite projects that I made was a console game in C++ that mimicked a Dungeons and Dragons style game called Dungeon Crawler. ",
+  paragraphThree: "When I'm not programming, I enjoy cooking, teaching, and martial arts. Before going to university, I volunteered to teach karate as a first degree black belt which I enjoyed. Additionally, my interest in teaching gave me my first job where I teach programming and computer science to children. ",
+  resume: 'Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -61,17 +61,39 @@ export const objectiveOneData = {
   projects: [
     {
       id: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 1',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'New Proposal.png',
+      title: 'HVAC Proposals',
+      info: "This is a mobile app using React Native to automate the " +
+        "proposal process for my client's company. HVAC Proposals " +
+        "gives the technician the ability to create a proposal while " +
+        "in front of the customer which will ultimately increase sales " +
+        "opportunities. The technician will be able to do everything from" +
+        "the app including entering information on which type of system is needed, " +
+        "what they plan to do, and any additional addons the customer is " +
+        "interested in. ",
+      repo: 'https://github.com/JacobDominski/ReactSIPPrototype',
     },
     {
       idd: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 2',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'PayloadInAir.jpg',
+      title: 'Space Project',
+      info: "The Space Project was a group project at UAT where me and a team of " +
+        "people developed a payload to collect data in the atmosphere. My job was " +
+        "to construct the flight computer. The flight computer consisted of three " + 
+        "layers: the sensors, printable circuit board, and the micro controller. " +
+        "I also wrote the software that would let the electronics talk to each other " +
+        "and send data to the micro SD card. ",
+      repo: 'https://github.com/UAT-Space/M5',
+    },
+    {
+      idd: nanoid(),
+      img: 'Showcase.png',
+      title: 'Report Card Generator',
+      info: "This is a console based application written in python that lets you " +
+        "create report cards and stores them as JSON files. Within the app, you " +
+        "can create new report cards, view already created report cards, and modify " +
+        "report cards. ",
+      repo: 'https://github.com/JacobDominski/ReportCardPythonWithJSON',
     }
   ]
 }
@@ -82,17 +104,25 @@ export const objectiveTwoData = {
   projects: [
     {
       id: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 1',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'Map.png',
+      title: 'Dungeon Crawler V2',
+      info: "Dungeon Crawler is a console game written in C++ that mimics a Dungeons and " +
+        "Dragons style game. The objective of the game is to navigate your way through the " +
+        "dungeon by fighting enemies, and collecting items to use until you make your way out." +
+        "There's a lot of features in the game like a shop to buy and sell items, an inventory " +
+        "system to hold all your items, and a command system that will let the player do a " +
+        "variety of actions.",
+      repo: 'https://github.com/JacobDominski/DungeonCrawlerV2',
     },
     {
       idd: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 2',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'Showcase.png',
+      title: 'Report Card Program',
+      info: "This is a console based application written in python that lets you " +
+      "create report cards and stores them as JSON files. Within the app, you " +
+      "can create new report cards, view already created report cards, and modify " +
+      "report cards. ",
+      repo: 'https://github.com/JacobDominski/ReportCardPythonWithJSON',
     }
   ]
 }
@@ -104,17 +134,27 @@ export const objectiveThreeData = {
   projects: [
     {
       id: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 1',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'TimeZone.png',
+      title: 'TimeZone',
+      info: "TimeZone is a mobile application that was built with React Native. " +
+        "The app was made for a coding competition where I won First Place. The " +
+        "app is designed to show you the time of different countries and cities " +
+        "accross the globe. ",
+      repo: 'https://github.com/JacobDominski/TimeZone',
     },
     {
       idd: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 2',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'New Proposal.png',
+      title: 'HVAC Proposals',
+      info: "This is a mobile app using React Native to automate the " +
+      "proposal process for my client's company. HVAC Proposals " +
+      "gives the technician the ability to create a proposal while " +
+      "in front of the customer which will ultimately increase sales " +
+      "opportunities. The technician will be able to do everything from" +
+      "the app including entering information on which type of system is needed, " +
+      "what they plan to do, and any additional addons the customer is " +
+      "interested in. ",
+      repo: 'https://github.com/JacobDominski/ReactSIPPrototype',
     }
   ]
 }
@@ -124,18 +164,26 @@ export const objectiveFourData = {
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
-      id: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 1',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      idd: nanoid(),
+      img: 'PayloadInAir.jpg',
+      title: 'Space Project',
+      info: "The Space Project was a group project at UAT where me and a team of " +
+        "people developed a payload to collect data in the atmosphere. My job was " +
+        "to construct the flight computer. The flight computer consisted of three " + 
+        "layers: the sensors, printable circuit board, and the micro controller. " +
+        "I also wrote the software that would let the electronics talk to each other " +
+        "and send data to the micro SD card. ",
+      repo: 'https://github.com/UAT-Space/M5',
     },
     {
-      idd: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 2',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      id: nanoid(),
+      img: 'TimeZone.gif',
+      title: 'TimeZone',
+      info: "TimeZone is a mobile application that was built with React Native. " +
+        "The app was made for a coding competition where I won First Place. The " +
+        "app is designed to show you the time of different countries and cities " +
+        "accross the globe. ",
+      repo: 'https://github.com/JacobDominski/TimeZone',
     }
   ]
 }
@@ -147,17 +195,25 @@ export const objectiveFiveData = {
   projects: [
     {
       id: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 1',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'Map.png',
+      title: 'Dungeon Crawler V2',
+      info: "Dungeon Crawler is a console game written in C++ that mimics a Dungeons and " +
+        "Dragons style game. The objective of the game is to navigate your way through the " +
+        "dungeon by fighting enemies, and collecting items to use until you make your way out." +
+        "There's a lot of features in the game like a shop to buy and sell items, an inventory " +
+        "system to hold all your items, and a command system that will let the player do a " +
+        "variety of actions.",
+      repo: 'https://github.com/JacobDominski/DungeonCrawlerV2',
     },
     {
       idd: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 2',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'Hangman.png',
+      title: 'March Memory',
+      info: "This application was made by a collaboration of three developers including myself. " +
+        "This program was made for a C++ competition with the theme of March. The program has " +
+        "three games: Hangman, Word Scramble, and Simon Says. The games use words related to " +
+        "the month of March. My contribution to the project was the Hangman game. ",
+      repo: 'https://github.com/JacobDominski/MarchMemory',
     }
   ]
 }
@@ -167,19 +223,16 @@ export const objectiveSixData = {
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
-      id: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 1',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
-    },
-    {
       idd: nanoid(),
-      img: 'project.jpg',
-      title: 'Project 2',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum luctus aliquet. Mauris at velit nisi. Duis consectetur ligula in dignissim imperdiet. Morbi posuere justo diam, eget molestie diam rutrum sit amet. Fusce iaculis sodales iaculis. Praesent ultrices lectus ut ligula interdum, fringilla efficitur purus mollis. Pellentesque tristique, sem vitae sodales mollis, purus felis fermentum magna, accumsan vehicula libero risus nec neque. Donec tempus tellus nisi, et hendrerit augue volutpat nec. Sed nisi tortor, aliquet eu accumsan maximus, pulvinar vel leo. Fusce facilisis a lacus eu fermentum. Etiam dictum elit in urna bibendum aliquam. Vestibulum tristique efficitur arcu id blandit. Cras finibus, urna id consequat molestie, risus urna vestibulum odio, eu venenatis odio tellus ac dui. Praesent nec orci eget enim bibendum viverra.',
-      repo: '',
+      img: 'Showcase.png',
+      title: 'Report Card Program',
+      info: "This is a console based application written in python that lets you " +
+      "create report cards and stores them as JSON files. Within the app, you " +
+      "can create new report cards, view already created report cards, and modify " +
+      "report cards. ",
+      repo: 'https://github.com/JacobDominski/ReportCardPythonWithJSON',
     }
+    
   ]
 }
 
@@ -193,20 +246,16 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
+    
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/Jackintheb0x',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jacob-dominski-825149200',
     },
     {
       id: nanoid(),
