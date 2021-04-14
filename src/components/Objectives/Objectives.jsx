@@ -22,7 +22,7 @@ const Objectives = () => {
         setIsDesktop(false);
         }
     }, []);
-    console.log(window.innerWidth)
+    
     return(
         <section id="objectives" className="jumbotron">
             <Container>
