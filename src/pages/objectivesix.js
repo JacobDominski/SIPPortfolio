@@ -6,7 +6,7 @@ import Objectives from '../components/Objectives/Objectives'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 import  { PortfolioProvider } from '../context/context';
-import { contactData, footerData, headData, objectiveTwoData } from '../mock/data';
+import { contactData, footerData, headData, objectiveSixData } from '../mock/data';
 
 export default () => {
   const { title, lang, description } = headData;
@@ -15,7 +15,7 @@ export default () => {
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
-    setObjectives({ ...objectiveTwoData});
+    setObjectives({ ...objectiveSixData});
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);

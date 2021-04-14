@@ -35,8 +35,8 @@ export const projectsData = [
     info2: 'Demonstrate software development skills using more than one programming language and development environment.',
     info3: 'Design and implement software solutions across multiple platforms.',
     url1: '/objectiveone/',
-    url2: '',
-    url3: '',
+    url2: '/objectivetwo/',
+    url3: '/objectivethree/',
   },
   {
     id: nanoid(),
@@ -46,9 +46,9 @@ export const projectsData = [
     info1: 'Design and implement solutions for mobile devices or embedded systems.',
     info2: 'Document the planning and development of software applications using industry standard tools, techniques, and processes.',
     info3: 'Within software solutions describe, implement and analyze data structure techniques such as lists, trees, hash tables, graphs, along with sorting and searching algorithms.',
-    url1: '',
-    url2: '',
-    url3: '',
+    url1: '/objectivefour/',
+    url2: '/objectivefive/',
+    url3: '/objectivesix/',
   },
   
 ];
@@ -77,7 +77,7 @@ export const objectiveOneData = {
 }
 
 export const objectiveTwoData = {
-  title: 'OBJECTIVE 1',
+  title: 'OBJECTIVE 2',
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
@@ -99,7 +99,7 @@ export const objectiveTwoData = {
 
 export const objectiveThreeData = {
 
-  title: 'OBJECTIVE 1',
+  title: 'OBJECTIVE 3',
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
@@ -120,7 +120,7 @@ export const objectiveThreeData = {
 }
 
 export const objectiveFourData = {
-  title: 'OBJECTIVE 1',
+  title: 'OBJECTIVE 4',
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
@@ -142,7 +142,7 @@ export const objectiveFourData = {
 
 export const objectiveFiveData = {
 
-  title: 'OBJECTIVE 1',
+  title: 'OBJECTIVE 5',
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
@@ -163,7 +163,7 @@ export const objectiveFiveData = {
 }
 
 export const objectiveSixData = {
-  title: 'OBJECTIVE 1',
+  title: 'OBJECTIVE 6',
   description: 'Follow a software development process to analyze a problem, and to design, build, and test software solutions.',
   projects: [
     {
