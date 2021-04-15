@@ -67,9 +67,9 @@ export const objectiveOneData = {
         "proposal process for my client's company. HVAC Proposals " +
         "gives the technician the ability to create a proposal while " +
         "in front of the customer which will ultimately increase sales " +
-        "opportunities. The technician will be able to do everything from" +
+        "opportunities. The technician will be able to do everything from " +
         "the app including entering information on which type of system is needed, " +
-        "what they plan to do, and any additional addons the customer is " +
+        "what they plan to do, and any additional add ons the customer is " +
         "interested in. ",
       repo: 'https://github.com/JacobDominski/ReactSIPPrototype',
     },
