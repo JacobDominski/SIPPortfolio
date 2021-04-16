@@ -34,7 +34,7 @@ const Objectives = () => {
                     <Link
                         
                         to="/"
-                        className="cta-btn cta-btn--hero"
+                        className="cta-btn objectives-cta"
                     >Home</Link>
 
                     <div style={{
@@ -53,6 +53,7 @@ const Objectives = () => {
                                     duration={1000}
                                     delay={500}
                                     distance="30px"
+                                    
                                 >
                                     <div className="objectives-wrapper__text">
                                     <h3 className="objectives-wrapper__text-title">{title || 'Project Title'}</h3>
@@ -67,7 +68,7 @@ const Objectives = () => {
                                         <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="cta-btn cta-btn--hero"
+                                        className="cta-btn objectives-cta"
                                         href={repo}
                                         >
                                         Source Code

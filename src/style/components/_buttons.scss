@@ -8,6 +8,18 @@
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
 
+  @include respond(phone) {
+    //bottom: 30rem;
+    margin-bottom: 0;
+  }
+  @include respond(tab-land) {
+    //bottom: 30rem;
+    margin-bottom: 0;
+  }
+  @include respond(tab-port) {
+    //bottom: 30rem;
+  }
+
   &::after {
     content: '';
     display: block;

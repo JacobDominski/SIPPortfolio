@@ -67,9 +67,9 @@ export const objectiveOneData = {
         "proposal process for my client's company. HVAC Proposals " +
         "gives the technician the ability to create a proposal while " +
         "in front of the customer which will ultimately increase sales " +
-        "opportunities. The technician will be able to do everything from" +
+        "opportunities. The technician will be able to do everything from " +
         "the app including entering information on which type of system is needed, " +
-        "what they plan to do, and any additional addons the customer is " +
+        "what they plan to do, and any additional add ons the customer is " +
         "interested in. ",
       repo: 'https://github.com/JacobDominski/ReactSIPPrototype',
     },
@@ -77,8 +77,8 @@ export const objectiveOneData = {
       idd: nanoid(),
       img: 'PayloadInAir.jpg',
       title: 'Space Project',
-      info: "The Space Project was a group project at UAT where me and a team of " +
-        "people developed a payload to collect data in the atmosphere. My job was " +
+      info: "The Space Project was a group project at UAT where a team and I " +
+        "developed a payload to collect data in the atmosphere. My job was " +
         "to construct the flight computer. The flight computer consisted of three " + 
         "layers: the sensors, printable circuit board, and the micro controller. " +
         "I also wrote the software that would let the electronics talk to each other " +
@@ -167,8 +167,8 @@ export const objectiveFourData = {
       idd: nanoid(),
       img: 'PayloadInAir.jpg',
       title: 'Space Project',
-      info: "The Space Project was a group project at UAT where me and a team of " +
-        "people developed a payload to collect data in the atmosphere. My job was " +
+      info: "The Space Project was a group project at UAT where a team and I " +
+        "developed a payload to collect data in the atmosphere. My job was " +
         "to construct the flight computer. The flight computer consisted of three " + 
         "layers: the sensors, printable circuit board, and the micro controller. " +
         "I also wrote the software that would let the electronics talk to each other " +
