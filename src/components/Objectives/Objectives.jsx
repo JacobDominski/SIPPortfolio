@@ -28,6 +28,7 @@ const Objectives = () => {
             <Container>
                 
                 <div className="objectives-wrapper">
+               
                     <h1 className="objectives-title">{ title || "OBJECTIVE #"}</h1>
                     <p className="objectives-text">{description || "Lorem ipsum"}</p>
                         

@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I am currently a student at the University of Advancing Technology. At UAT, I am working towards a Computer Science degree with a focus on software development. My time at UAT has helped me increase my knowledge as a programmer and gave me the opportunity to explore other areas of Computer Science. ',
   paragraphTwo: "When I'm not in class, I enjoy creating projects on my own and seeing what I build come to life. One of my favorite projects that I made was a console game in C++ that mimicked a Dungeons and Dragons style game called Dungeon Crawler. ",
   paragraphThree: "When I'm not programming, I enjoy cooking, teaching, and martial arts. Before going to university, I volunteered to teach karate as a first degree black belt which I enjoyed. Additionally, my interest in teaching gave me my first job where I teach programming and computer science to children. ",
-  resume: 'Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1O8VDu_5SaVJukVIgzHzs4kXrOK56tEen/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
