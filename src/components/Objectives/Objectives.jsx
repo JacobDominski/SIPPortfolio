@@ -9,7 +9,7 @@ import ProjectImg from '../Image/ProjectImg';
 
 const Objectives = () => {
     const { objectives } = useContext(PortfolioContext);
-    const { title, description, projects } = objectives;
+    const { title, description, nextLink, prevLink, projects } = objectives;
     const [isDesktop, setIsDesktop] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
@@ -32,18 +32,33 @@ const Objectives = () => {
                     <h1 className="objectives-title">{ title || "OBJECTIVE #"}</h1>
                     <p className="objectives-text">{description || "Lorem ipsum"}</p>
                         
+                    {prevLink && (<Link
+                        
+                        to={prevLink}
+                        className="cta-btn objectives-cta"
+                    >
+                        <i className="fa fa-angle-left fa-lg fa-lefta" aria-hidden="true" />
+                        Previous</Link>)}
                     <Link
                         
                         to="/"
                         className="cta-btn objectives-cta"
                     >Home</Link>
+                    {nextLink && (<Link
+                        
+                        to={nextLink}
+                        className="cta-btn objectives-cta"
+                    >
+                        Next
+                        <i className="fa fa-angle-right fa-lg fa-righta" aria-hidden="true" />
+                        </Link>)}
 
                     <div style={{
                         alignItems: 'center',
                         margin: '4rem',
                     }}>
                     {projects && projects.map((project) => {
-                        const { id, img, title, info, repo } = project;
+                        const { id, img, title, info, repo, source } = project;
 
                         return(
                             <Row key={id} className="row">
@@ -73,6 +88,16 @@ const Objectives = () => {
                                         href={repo}
                                         >
                                         Source Code
+                                        </a>
+                                    )}
+                                    {source && (
+                                        <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="cta-btn objectives-cta"
+                                        href={source}
+                                        >
+                                        View
                                         </a>
                                     )}
                                     </div>

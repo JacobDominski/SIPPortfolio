@@ -17,10 +17,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.fa-lefta{
+  margin-right: 10px;
+}
+.fa-righta{
+  margin-left: 10px;
+}
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
+  
 }
 .fa-2x {
   font-size: 2em;
